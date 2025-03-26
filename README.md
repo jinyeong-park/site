@@ -11,24 +11,28 @@ This portfolio was designed following fundamental UI/UX principles to create a s
 ### UI/UX Concepts Applied
 
 #### 1. Visual Hierarchy
+
 - Clear section differentiation with consistent heading styles
 - Strategic use of whitespace to guide the eye
 - Subtle dividers to separate content sections
 - Primary actions (CTAs) are visually emphasized
 
 #### 2. Consistency
+
 - Unified component styling throughout the site
 - Predictable interaction patterns
 - Consistent spacing system (8px grid)
 - Repeating visual elements (rounded corners, card patterns)
 
 #### 3. Feedback & Affordance
+
 - Interactive elements provide visual feedback on hover/focus
 - Buttons and links clearly indicate their clickability
 - Micro-animations reinforce user actions
 - Form elements with clear states (default, hover, focus)
 
 #### 4. Simplicity
+
 - Content is presented without unnecessary decoration
 - Each section serves a clear purpose
 - Information density is carefully balanced
@@ -42,8 +46,8 @@ The site uses **Inter**, a highly readable sans-serif font designed for screens:
   - H1: 3.5rem/4rem (56px/64px), font-weight: 700
   - H2: 2rem (32px), font-weight: 700
   - H3: 1.25rem (20px), font-weight: 600
-  
 - **Body Text**:
+
   - Regular: 1rem (16px), font-weight: 400, line-height: 1.5
   - Large: 1.125rem (18px), font-weight: 400, line-height: 1.6
   - Small: 0.875rem (14px), font-weight: 400
@@ -57,14 +61,17 @@ The site uses **Inter**, a highly readable sans-serif font designed for screens:
 The color scheme is intentionally minimal to maintain focus on content:
 
 - **Primary**: #18181B (dark gray with slight blue undertone)
+
   - Used for emphasis, buttons, and interactive elements
   - HSL: 240 5.9% 10%
 
 - **Background**: #FFFFFF (white)
+
   - Clean canvas for content
   - HSL: 0 0% 100%
 
 - **Text**:
+
   - Primary text: #0F0F10 (near black)
   - Secondary text: #71717A (medium gray)
   - HSL: 240 10% 3.9% and 240 3.8% 46.1%
@@ -82,6 +89,7 @@ The layout follows an 8px grid system:
 
 - **Base unit**: 4px
 - **Common spacing values**:
+
   - xs: 0.5rem (8px)
   - sm: 1rem (16px)
   - md: 1.5rem (24px)
@@ -102,6 +110,7 @@ The site is fully responsive with several breakpoints:
 - **Desktop**: 1024px+
 
 Key responsive features:
+
 - Fluid typography that scales with viewport
 - Grid layouts that reflow based on screen size
 - Stack layout on mobile for better readability
@@ -121,6 +130,7 @@ Key responsive features:
 ## Bilingual Support
 
 The site implements a language context system that:
+
 - Stores user language preference
 - Provides translations for all UI text
 - Maintains consistent layout between languages
@@ -146,5 +156,6 @@ The site implements a language context system that:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
-   cd portfolio-website
+   git clone https://github.com/jinyeong-park/site.git
+   cd site
+   ```
